@@ -1,0 +1,20 @@
+{
+  "project": "Project 80: Audio Denoising with Autoencoders",
+  "model": {
+    "architecture": "DenoiseUNet (Convolutional U-Net Autoencoder)",
+    "parameters": 963633,
+    "model_size_mb": 3.6759681701660156
+  },
+  "test_metrics": {
+    "mean_psnr_db": 20.99040735244751,
+    "mean_snr_improvement_db": 10.329941749572754,
+    "mean_spectrogram_mse": 0.01209252793341875,
+    "test_loss": 0.039032330165306724
+  },
+  "latency_benchmark": {
+    "mean_ms": 19.987527869943733,
+    "median_ms": 19.02740349942178,
+    "p95_ms": 24.413962400649325,
+    "throughput_fps": 50.03119978152731
+  }
+}
